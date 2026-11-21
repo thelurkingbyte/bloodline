@@ -949,7 +949,7 @@ body {
   display: inline-block;
 }
 
-.admin-table .btn-icon {
+.btn-icon {
   background: none;
   border: none;
   color: var(--color-error);
@@ -958,10 +958,7 @@ body {
   border-radius: 8px;
   transition: background 0.2s ease;
 }
-
-.admin-table .btn-icon:hover {
-  background-color: var(--color-error-container);
-}
+.btn-icon:hover { background-color: var(--color-error-container); }
 
 .admin-emergency-list {
   display: grid;

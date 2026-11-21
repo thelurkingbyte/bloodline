@@ -1,4 +1,4 @@
-// Seed data for Bloodline.
+// Seed data for BloodLine.
 // Runs before app.js / admin.js so the site never starts empty.
 // It only fills localStorage when the keys do not exist yet, so any donor
 // added or removed later is preserved.

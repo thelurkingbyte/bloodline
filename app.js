@@ -1,4 +1,4 @@
-// Bloodline App - Vanilla JavaScript
+// BloodLine App - Vanilla JavaScript
 // Data Storage using localStorage
 let donors = JSON.parse(localStorage.getItem('bloodline_donors') || '[]');
 let emergencies = JSON.parse(localStorage.getItem('bloodline_emergencies') || '[]');

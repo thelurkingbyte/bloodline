@@ -1,4 +1,4 @@
-// Bloodline Admin Dashboard - Vanilla JavaScript
+// BloodLine Admin Dashboard - Vanilla JavaScript
 let donors = JSON.parse(localStorage.getItem('bloodline_donors') || '[]');
 let emergencies = JSON.parse(localStorage.getItem('bloodline_emergencies') || '[]');
 
@@ -91,7 +91,7 @@ function renderAdminDonorsTable() {
            <span class="material-symbols-rounded">edit</span>
          </button>
          <button class="btn-icon" onclick="deleteDonor(${donor.id})" title="Delete donor">
-           <span class="material-symbols-rounded">delete</span>
+           <span class="material-symbols-rounded" style="color:#ba1a1a"">delete</span>
          </button>
        </td>
     </tr>
@@ -136,7 +136,7 @@ function renderAdminEmergencyList() {
           <span class="material-symbols-rounded">edit</span>
         </button>
         <button class="btn-icon" onclick="deleteEmergency(${emergency.id})" title="Delete emergency request" style="color: var(--md-sys-color-error);">
-          <span class="material-symbols-rounded">delete</span>
+          <span class="material-symbols-rounded" style="color:#ba1a1a"">delete</span>
         </button>
       </div>
     </div>
